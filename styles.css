@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.heroimage{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 800px;
+}
+.heroimagemob{
+  width: 100%;
+  height: 35vh;
+  margin: 0;
+}
+.herotext{
+  z-index: 1;
+  width: 50%;
+  /* margin: 3% 10% 0; */
+  margin-left: 10%;
+}
+.logo{
+  margin-left: 10%;
+  margin-top:3%;
+  margin-bottom: 3%;
+}
+.des{
+  background-image: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60%;
+  height: 800px;
+}
+p{
+  color: hsl(0, 36%, 70%);
+  font-weight: 600;
+  font-size: 16px;
+  width: 60%;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+.weare{
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  text-transform: uppercase;
+  /* margin-top: 70px; */
+  font-size: 50px;
+  letter-spacing: 12px;
+  margin-bottom: 0;
+}
+.commingsoon{
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  line-height: 70px;
+  color: hsl(0, 6%, 24%);
+}
+
+
+input{
+
+    opacity: 0.9;
+    font-weight: 600;
+    padding-left: 10%;
+
+}
+::placeholder{
+  color: hsl(0, 36%, 70%);
+ opacity: 0.8;
+ font-weight: 600;
+}
+.email-box{
+  margin-top: 30px;
+  height: 50px;
+  width: 60%;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.7;
+}
+.btn-back{
+  text-align: center;
+  position: relative;
+  top: 4px;
+  right: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 55px;
+  border: none;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 55px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+.btn{
+  position: relative;
+  right: 10px;
+}
+.errorsign{
+  position: relative;
+  right: 70px;
+  top: 4px;
+  visibility: hidden;
+
+}
+.errormess{
+  font-weight: 400;
+  margin-left: 7%;
+  font-size: 14px;
+  word-spacing: 1px;
+  visibility: hidden;
+}
+.errorgot{
+  visibility: visible;
+}
+/* phone */
+@media only screen and (max-width: 800px) {
+  .herotext {
+    text-align: center;
+    width: 80%;
+    margin: 0 10%  0;
+  }
+  p{
+    width: 90%;
+    margin:0 auto;
+    /* margin-top: 0; */
+  }
+  .commingsoon{
+    line-height: 55px;
+  }
+  .email-box{
+    width: 50%;
+    margin-left: 11%;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .des{
+    display: none;
+    }
+    body{
+      background-image: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+    }
+
+
+}
+/* @media only screen and (max-width: 600px) {...} */
